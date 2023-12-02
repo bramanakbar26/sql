@@ -10,7 +10,7 @@ from [dbo].[CovidVaccinations]
 order by 3,4;
 
 
---select data that we are going to be using 
+--select data that going to be using 
 select location, date, total_cases,new_cases,total_deaths, population
 from [dbo].[CovidDeaths]
 where continent is not null
